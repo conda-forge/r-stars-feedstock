@@ -3,7 +3,7 @@ About r-stars
 
 Home: https://r-spatial.github.io/stars/, https://github.com/r-spatial/stars/
 
-Package license: Apache-2.0
+Package license: Apache-1.1-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-stars-feedstock/blob/master/LICENSE.txt)
 
