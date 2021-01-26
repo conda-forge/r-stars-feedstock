@@ -5,11 +5,9 @@ Home: https://r-spatial.github.io/stars/, https://github.com/r-spatial/stars/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-stars-feedstock/blob/master/LICENSE.txt)
 
 Summary: Reading, manipulating, writing and plotting spatiotemporal arrays (raster and vector data cubes) in 'R', using 'GDAL' bindings provided by 'sf', and 'NetCDF' bindings by 'ncmeta' and 'RNetCDF'.
-
-
 
 Current build status
 ====================
