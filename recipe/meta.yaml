@@ -29,7 +29,7 @@ requirements:
     - r-classint >=0.4_1
     - r-lwgeom
     - r-rlang
-    - r-sf >=0.8_0
+    - r-sf >=0.9_7
     - r-units
   run:
     - r-base
@@ -37,7 +37,7 @@ requirements:
     - r-classint >=0.4_1
     - r-lwgeom
     - r-rlang
-    - r-sf >=0.8_0
+    - r-sf >=0.9_7
     - r-units
 
 test:
