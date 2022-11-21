@@ -23,13 +23,14 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-abind
     - r-classint >=0.4_1
     - r-lwgeom
     - r-rlang
-    - r-sf >=0.9_7
+    - r-sf >=1.0_9
     - r-units
   run:
     - r-base
@@ -37,7 +38,7 @@ requirements:
     - r-classint >=0.4_1
     - r-lwgeom
     - r-rlang
-    - r-sf >=0.9_7
+    - r-sf >=1.0_9
     - r-units
 
 test:
