@@ -1,4 +1,4 @@
-{% set version = "0.6-6" %}
+{% set version = "0.6-7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/stars_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stars/stars_{{ version }}.tar.gz
-  sha256: 70ca3509adfb4227ca8910d47c87f587ec06d8ef4577af63fe772757844ec7ac
+  sha256: 238acbd32d38fca4bf4b66cdcdeb7596e7163c27739a62a0fdebb593a3928e1f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -25,17 +25,15 @@ requirements:
     - r-base
     - r-abind
     - r-classint >=0.4_1
-    - r-lwgeom
     - r-rlang
-    - r-sf >=0.9_7
+    - r-sf >=1.0_19
     - r-units
   run:
     - r-base
     - r-abind
     - r-classint >=0.4_1
-    - r-lwgeom
     - r-rlang
-    - r-sf >=0.9_7
+    - r-sf >=1.0_19
     - r-units
 
 test:
