@@ -25,17 +25,15 @@ requirements:
     - r-base
     - r-abind
     - r-classint >=0.4_1
-    - r-lwgeom
     - r-rlang
-    - r-sf >=0.9_7
+    - r-sf >=1.0_19
     - r-units
   run:
     - r-base
     - r-abind
     - r-classint >=0.4_1
-    - r-lwgeom
     - r-rlang
-    - r-sf >=0.9_7
+    - r-sf >=1.0_19
     - r-units
 
 test:
