@@ -1,4 +1,4 @@
-{% set version = "0.7-1" %}
+{% set version = "0.7-2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/stars_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stars/stars_{{ version }}.tar.gz
-  sha256: 808884e68a4e29fbe507e68f0825708ae663e7ff4689ae4389720bbb811cc5e6
+  sha256: 8d1d09eb304d54b4bd1ec7a5b19c4cf02a658609389b7267144400377c5f5d3d
 
 build:
   number: 0
