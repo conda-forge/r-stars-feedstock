@@ -1,15 +1,15 @@
-{% set version = "0.7-2" %}
+{% set version = "0.7-3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-stars
-  version: "{{ version|replace("-", "_") }}"
+  version: {{ version|replace("-", "_") }}
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/stars_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stars/stars_{{ version }}.tar.gz
-  sha256: 8d1d09eb304d54b4bd1ec7a5b19c4cf02a658609389b7267144400377c5f5d3d
+  sha256: a691605aec9fcdb7d05c2db64c0d4f48fa608702388f2310888d595b7dfe1f19
 
 build:
   number: 0
